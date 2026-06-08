@@ -1,4 +1,4 @@
-# 🚌 BusPass API
+#  BusPass API
 
 A production-ready REST API for bus route and ticket management, built with **Laravel 11** and **Sanctum**.
 
@@ -6,19 +6,19 @@ Users can browse routes, check schedule availability, and book seats — all thr
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔐 **Auth** — Register, login, logout via Laravel Sanctum
-- 🛣️ **Routes & Stops** — Admin manages routes with ordered stops
-- 🕐 **Schedules** — Route trips with date/time, capacity, and seat tracking
-- 🪑 **Seat Availability** — Real-time available seats per schedule
-- 🎫 **Bookings & Tickets** — Book a seat, get a unique ticket code
-- ❌ **Cancellations** — Cancel a booking and release the seat
-- 📋 **Ticket Status Machine** — `pending → confirmed → used → cancelled`
+-  **Auth** — Register, login, logout via Laravel Sanctum
+-  **Routes & Stops** — Admin manages routes with ordered stops
+-  **Schedules** — Route trips with date/time, capacity, and seat tracking
+-  **Seat Availability** — Real-time available seats per schedule
+-  **Bookings & Tickets** — Book a seat, get a unique ticket code
+-  **Cancellations** — Cancel a booking and release the seat
+-  **Ticket Status Machine** — `pending → confirmed → used → cancelled`
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 | Layer | Tech |
 |---|---|
@@ -30,7 +30,7 @@ Users can browse routes, check schedule availability, and book seats — all thr
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 app/
@@ -54,7 +54,7 @@ docs/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone & Install
 
@@ -89,7 +89,7 @@ php artisan serve
 
 ---
 
-## 🔑 Authentication
+##  Authentication
 
 All protected routes require a Bearer token:
 
@@ -101,7 +101,7 @@ Tokens are issued on login and can be revoked on logout.
 
 ---
 
-## 📌 Core Endpoints (V1)
+##  Core Endpoints (V1)
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -121,7 +121,7 @@ Tokens are issued on login and can be revoked on logout.
 
 ---
 
-## 🧱 Status Machines
+##  Status Machines
 
 **Ticket Status**
 ```
@@ -136,7 +136,7 @@ active → cancelled
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 php artisan test
@@ -144,13 +144,8 @@ php artisan test
 
 ---
 
-## 👤 Author
+##  Author
 
 **Ahmed Mandouh** — Backend Developer  
 [GitHub](https://github.com/ahmedmandouh101) · [Portfolio](https://ahmedmandouh101.github.io/me) · [LinkedIn](https://linkedin.com/in/ahmedmandouh101)
 
----
-
-## 📄 License
-
-MIT
